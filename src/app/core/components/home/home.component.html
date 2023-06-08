@@ -1,0 +1,8 @@
+<div class="home">
+  <mat-card class="home-card">
+    <mat-card-title>Login</mat-card-title>
+    <mat-card-content>
+      <app-login [loggedIn]="loggedIn$ | async" [identity]="identity$ | async"></app-login>
+    </mat-card-content>
+  </mat-card>
+</div>
